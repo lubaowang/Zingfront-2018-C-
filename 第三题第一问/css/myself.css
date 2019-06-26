@@ -1,0 +1,58 @@
+h2{
+    text-align: center;
+
+}
+#headline{
+    margin-left: 35%;
+    text-align: center;
+    
+}
+#baseinfo{
+    float: left;
+}
+#imagephoto{
+   width: 30%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+.context{
+    width: 70%;
+    margin-left: 15%;
+}
+.twotitle{
+    font-weight: bold;
+
+}
+.pices{
+    margin-left: 15px;
+}
+.biga{
+    font-size: 15px;
+    font-weight: bold;
+    width: 60%;
+}
+
+#time1{
+    margin-left: 68%;
+}
+#time2{
+    margin-left:57%;
+}
+#time3{
+    margin-left: 60%;
+}
+#time4{
+    margin-left: 57%;
+}
+#time5{
+    margin-left: 75%;
+}
+#time6{
+    margin-left: 74%;
+}
+#time7{
+    margin-left: 69%; 
+}

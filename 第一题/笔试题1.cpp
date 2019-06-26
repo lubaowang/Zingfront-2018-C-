@@ -8,12 +8,14 @@ using namespace std;
 
 
 string solution(string &s,string &t);
+//对字符串进行切片
 vector<string> split(string &s);
+//对匹配结果进行排序
 bool compareLen(const string &a,const string &b){
 	return (a.size()>b.size()); 
 }
 int main(){
-	string s("This is C programming tex");
+	string s("This is C programming text");
 	string t("This is a text for C programming");
 	string r = solution(s,t);
 	
@@ -26,6 +28,7 @@ string solution(string &s,string &t){
 	vector<string> tt = split(t);
 	
 	vector<string> result;
+	//时间复杂度达到o(n^2)
 	for(int i=0;i<ss.size();i++){
 		for(int j=0;j<tt.size();j++){
 			if(ss.at(i) == tt.at(j)){
